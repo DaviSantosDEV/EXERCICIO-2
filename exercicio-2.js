@@ -1,25 +1,28 @@
-//let NASC = parseInt(prompt('VEJA SE VOCÊ PODE VOTAR '));
+/*Exercicio 1
+let ano = prompt('Digite seu ano de nascimento');
+if(ano <= 2006){
+    alert('Você pode votar esse ano!');
+}else{
+    alert('Você não pode votar esse ano!');
+}
+//Exercicio 2
+let senha = prompt('Digite sua senha');
+if(senha ==  1234){
+    alert('ACESSO PERMITIDO');
+}else{
+    alert('ACESSO NEGADO');
+}*/
 
-//if( nasc <= 2006 ){
-   // alert(`Voce pode Votar `)}
-//else{
-    //alert('Você Não pode Votar')}
+//Exercicio 3
 
+let turno = prompt('Em qual turno você estuda? Digite M-matutino V-vespertino ou N-noturno');
 
-//Atividade 2
-
-//let val = parseInt(prompt('SENHA DO USUARIO'));
-
-//if( val == 1234 ){
-    //alert(`Senha valida `)}
-//else{
-    //alert('Senha Invalida')}
-
-
-//Atividade 3
-
-
-if (turno == 'm'){ alert('bom dia') }
-else if(turno == 'v'){ alert('boa tarde') }
-else if(turno == 'n'){ alert('boa noite') }
-else{ alert('valor infalido') }
+if(turno == 'M'){
+    alert('Bom dia!');
+} else if(turno == 'V'){
+    alert('Boa tarde!');
+} else if(turno  == 'N'){
+    alert('Boa noite!');
+}else{
+    alert('Valor inválido!');
+}
